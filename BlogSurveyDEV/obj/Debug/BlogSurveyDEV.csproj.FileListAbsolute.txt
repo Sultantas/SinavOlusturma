@@ -1,0 +1,292 @@
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\ApplicationInsights.config
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\csc.exe
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\csc.exe.config
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\csc.rsp
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\csi.exe
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\csi.exe.config
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\csi.rsp
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\Microsoft.Win32.Primitives.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.AppContext.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.Collections.Immutable.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.Console.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.Diagnostics.Process.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.IO.Compression.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.IO.FileSystem.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.IO.Pipes.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.Security.AccessControl.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.Security.Claims.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.Security.Cryptography.Encoding.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.Security.Cryptography.Primitives.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.Security.Principal.Windows.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.Text.Encoding.CodePages.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.Threading.Thread.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.ValueTuple.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.Xml.ReaderWriter.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.Xml.XmlDocument.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.Xml.XPath.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\System.Xml.XPath.XDocument.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\vbc.exe
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\vbc.exe.config
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\vbc.rsp
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\VBCSCompiler.exe
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\roslyn\VBCSCompiler.exe.config
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\BlogSurveyDEV.dll.config
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\BlogSurveyDEV.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\BlogSurveyDEV.pdb
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Antlr3.Runtime.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\EntityFramework.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\EntityFramework.SqlServer.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.AI.Web.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.AI.WindowsServer.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.ApplicationInsights.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.Owin.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.Owin.Security.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.Owin.Security.Google.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.Web.Infrastructure.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Newtonsoft.Json.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Owin.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\System.Net.Http.Formatting.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\System.Web.Helpers.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\System.Web.Http.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\System.Web.Http.WebHost.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\System.Web.Mvc.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\System.Web.Optimization.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\System.Web.Razor.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\System.Web.WebPages.Deployment.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\System.Web.WebPages.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\System.Web.WebPages.Razor.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\WebGrease.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\System.Web.Helpers.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\System.Web.Mvc.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\System.Web.Optimization.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\System.Web.Razor.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\System.Web.WebPages.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\System.Web.WebPages.Deployment.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\System.Web.WebPages.Razor.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Antlr3.Runtime.pdb
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Newtonsoft.Json.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\System.Net.Http.Formatting.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\System.Web.Http.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\System.Web.Http.WebHost.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\EntityFramework.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\EntityFramework.SqlServer.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.Owin.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.Owin.Security.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.Owin.Security.Google.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.ApplicationInsights.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.AI.WindowsServer.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\Microsoft.AI.Web.xml
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\tr\System.Web.Helpers.resources.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\tr\System.Web.Mvc.resources.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\tr\System.Web.Optimization.resources.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\tr\System.Web.Razor.resources.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\tr\System.Web.WebPages.resources.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\tr\System.Web.WebPages.Deployment.resources.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\tr\System.Web.WebPages.Razor.resources.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\tr\System.Net.Http.Formatting.resources.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\tr\System.Web.Http.resources.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\tr\System.Web.Http.WebHost.resources.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\tr\Microsoft.AspNet.Identity.Core.resources.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\tr\Microsoft.AspNet.Identity.Owin.resources.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\tr\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\tr\Microsoft.Owin.resources.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\tr\Microsoft.Owin.Host.SystemWeb.resources.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\tr\Microsoft.Owin.Security.resources.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\tr\Microsoft.Owin.Security.Facebook.resources.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\tr\Microsoft.Owin.Security.Google.resources.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\tr\Microsoft.Owin.Security.Twitter.resources.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\bin\tr\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\obj\Debug\BlogSurveyDEV.csprojResolveAssemblyReference.cache
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\obj\Debug\BlogSurveyDEV.csproj.CoreCompileInputs.cache
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\obj\Debug\BlogSurveyDEV.dll
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\obj\Debug\BlogSurveyDEV.pdb
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\obj\Debug\BlogSurveyDEV.Migrations.Initial.resources
+c:\users\sultan\source\repos\BlogSurveyDEV\BlogSurveyDEV\obj\Debug\BlogSurveyDEV.csproj.GenerateResource.Cache
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\ApplicationInsights.config
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\csc.exe
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\csc.exe.config
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\csc.rsp
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\csi.exe
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\csi.exe.config
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\csi.rsp
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.AppContext.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.Console.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.Security.Claims.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\vbc.exe
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\vbc.exe.config
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\vbc.rsp
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\BlogSurveyDEV.dll.config
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\BlogSurveyDEV.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\BlogSurveyDEV.pdb
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Antlr3.Runtime.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\EntityFramework.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\EntityFramework.SqlServer.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.AI.Web.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.Owin.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.Owin.Security.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Newtonsoft.Json.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Owin.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\System.Net.Http.Formatting.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\System.Web.Helpers.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\System.Web.Http.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\System.Web.Http.WebHost.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\System.Web.Mvc.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\System.Web.Optimization.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\System.Web.Razor.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\System.Web.WebPages.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\WebGrease.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\System.Web.Helpers.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\System.Web.Mvc.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\System.Web.Optimization.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\System.Web.Razor.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\System.Web.WebPages.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Antlr3.Runtime.pdb
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Newtonsoft.Json.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\System.Net.Http.Formatting.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\System.Web.Http.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\System.Web.Http.WebHost.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\EntityFramework.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\EntityFramework.SqlServer.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.Owin.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.Owin.Security.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\Microsoft.AI.Web.xml
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\tr\System.Web.Optimization.resources.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\tr\System.Web.Razor.resources.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\tr\System.Web.WebPages.resources.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\tr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\tr\System.Web.WebPages.Razor.resources.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\tr\System.Net.Http.Formatting.resources.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\tr\System.Web.Http.resources.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\tr\System.Web.Http.WebHost.resources.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\tr\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\tr\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\tr\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\tr\Microsoft.Owin.resources.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\tr\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\tr\Microsoft.Owin.Security.resources.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\tr\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\tr\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\tr\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\bin\tr\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\obj\Debug\BlogSurveyDEV.csprojResolveAssemblyReference.cache
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\obj\Debug\BlogSurveyDEV.csproj.CoreCompileInputs.cache
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\obj\Debug\BlogSurveyDEV.dll
+C:\Users\Sultan\Desktop\BlogSurveyDEV - Kopya\BlogSurveyDEV\obj\Debug\BlogSurveyDEV.pdb

@@ -1,0 +1,278 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+@section scripts{
+
+    <script>
+        var myModule = angular.module('App', [/* No Dependency Injection */]);
+        //Modulu olusturduk. Modul herhangi bir DI'ye ihtiyaç duymuyor
+        myModule.config(function ($sceProvider) {
+            $sceProvider.enabled(false);
+        }).service('blogCtrl', function ($http) {
+            this.addblog = function (_blog) {
+                _blog = $http({
+                    method: 'POST',
+                    url: '/Repo/AddBlog',
+                    data: _blog
+                }).then(function (response) {
+                    return response.data;
+                })
+                return _blog;
+            }
+
+        })
+        myModule.controller('BlogController', function ($scope, $http, $sce) {
+            $scope.model = {};
+
+            $http.get('/repo/getBlogViewModel').then(function (resp) {
+                $scope.model = resp.data.model;
+                $scope.model.Question1.Answer = null;
+                $scope.model.Question2.Answer = null;
+                $scope.model.Question3.Answer = null;
+                $scope.model.Question4.Answer = null;
+            })
+
+            $scope.activeBlog = {};
+            $scope.activeUrl = "";
+
+            $scope.sources = [];
+
+            $http.get("/home/GetTitles").then(function (resp) {
+                $scope.sources = resp.data.sources;
+            });
+
+
+
+            // BLOG EKLE - DÜZENLE
+            $scope.AddBlog = function () {
+                //$scope.model.blog = $scope.activeBlog;
+                $scope.model.blog.Content = $scope.activeUrl;
+                $http.post('/repo/addblog', $scope.model).then(function (resp) {
+                    if (resp.data.result === true) {
+                        window.location.href = "/home/detail/?id=" + resp.data.data.blog.Id;
+                    }
+                }, function (resp) {
+                    
+                });
+            }
+            // BLOG KAYDINI SİL
+            $scope.DeleteBlog = function () {
+                $http.get("/repo/deleteblog/?_blogId=" + $scope.model.blog.Id).then(function (resp) {
+                    alert(result.message);
+                    if (resp.result === true)
+                        window.location.href = "/";
+                }, function () {
+                    alert(result.message);
+                })
+            };
+
+
+            $scope.$watch("activeUrl", function (f, b) {
+                if (f !== b) {
+                    angular.forEach($scope.sources, function (item, idx) {
+                        if (item.Url === f)
+                            $scope.model.blog.Title = item.Title;
+                    });
+                }
+                    
+            });
+
+
+        })
+        
+
+
+        
+    </script>
+}
+
+@section styles{
+    
+    <style>
+        
+        iframe{width:100%;height:400px;}
+    </style>
+    
+    }
+
+
+<div ng-controller="BlogController" class="container">
+
+
+    @*<div class="row">*@
+        <div class="col-md-12">
+            <section class  ="panel">
+                <form class="form-horizontal">
+
+                    <br />
+
+                    <div class="form-group col-md-12">
+                        <select ng-model="activeUrl" div class=" form-control input-lg ">
+                            <option value="">Lütfen Başlık Seçiniz</option>
+                            <option ng-repeat="c in sources" value="{{c.Url}}" class="col-md-12">{{c.Title}}</option>
+                        </select>
+                    </div>
+                        <hr />
+
+                        <iframe ng-src="{{activeUrl}}"></iframe>
+                    <div class="form-group">
+                        
+                            <input type="text" ng-model="model.Question1.Text"  class="form-control input-lg"  placeholder="Soru1:" />
+                        
+                      
+                        <div class="col-md-6">
+                            <input type="text" ng-model="model.Question1.Option1"  class="form-control " placeholder="A:" />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" ng-model="model.Question1.Option2" class="form-control" placeholder="B:" />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" ng-model="model.Question1.Option3" class="form-control " placeholder="C:" />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" ng-model="model.Question1.Option4" class="form-control" placeholder="D:" />
+                        </div>
+                                 
+
+                        <div class="col-md-3 ">
+                            <select  div class=" form-control" ng-model="model.Question1.Answer">
+                                <option value="" disabled>Doğru Cevabı Seç</option>
+                                <option value="1">A</option>
+                                <option value="2">B</option>
+                                <option value="3">C</option>
+                                <option value="4">D</option>
+                                
+                            </select>
+                        </div>
+
+
+
+                            
+                    </div>
+                        
+
+                    <div class="form-group">
+
+                        <input type="text" ng-model="model.Question2.Text" class="form-control input-lg" placeholder="Soru2:" />
+
+
+                        <div class="col-md-6">
+                            <input type="text" ng-model="model.Question2.Option1" class="form-control " placeholder="A:" />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" ng-model="model.Question2.Option2" class="form-control" placeholder="B:" />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" ng-model="model.Question2.Option3" class="form-control " placeholder="C:" />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" ng-model="model.Question2.Option4" class="form-control" placeholder="D:" />
+                        </div>
+
+
+                        <div class="col-md-3 ">
+                            <select div class=" form-control" ng-model="model.Question2.Answer">
+                                <option value="" disabled>Doğru Cevabı Seç</option>
+                                <option value="1">A</option>
+                                <option value="2">B</option>
+                                <option value="3">C</option>
+                                <option value="4">D</option>
+
+                            </select>
+                        </div>
+
+
+
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <input type="text" ng-model="model.Question3.Text" class="form-control input-lg" placeholder="Soru3:" />
+
+
+                        <div class="col-md-6">
+                            <input type="text" ng-model="model.Question3.Option1" class="form-control " placeholder="A:" />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" ng-model="model.Question3.Option2" class="form-control" placeholder="B:" />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" ng-model="model.Question3.Option3" class="form-control " placeholder="C:" />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" ng-model="model.Question3.Option4" class="form-control" placeholder="D:" />
+                        </div>
+
+
+                        <div class="col-md-3 ">
+                            <select div class=" form-control" ng-model="model.Question3.Answer">
+                                <option value="" disabled>Doğru Cevabı Seç</option>
+                                <option value="1">A</option>
+                                <option value="2">B</option>
+                                <option value="3">C</option>
+                                <option value="4">D</option>
+
+                            </select>
+                        </div>
+
+
+
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <input type="text" ng-model="model.Question4.Text" class="form-control input-lg" placeholder="Soru4:" />
+
+
+                        <div class="col-md-6">
+                            <input type="text" ng-model="model.Question4.Option1" class="form-control " placeholder="A:" />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" ng-model="model.Question4.Option2" class="form-control" placeholder="B:" />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" ng-model="model.Question4.Option3" class="form-control " placeholder="C:" />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" ng-model="model.Question4.Option4" class="form-control" placeholder="D:" />
+                        </div>
+
+
+                        <div class="col-md-3 ">
+                            <select div class=" form-control" ng-model="model.Question4.Answer">
+                                <option value="" disabled>Doğru Cevabı Seç</option>
+                                <option value="1">A</option>
+                                <option value="2">B</option>
+                                <option value="3">C</option>
+                                <option value="4">D</option>
+
+                            </select>
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+                   
+                   
+                        <br />
+                        <br />
+                 
+
+                </form>
+            </section>
+        </div>
+       
+    @*</div>*@
+   
+    <button type="button" ng-click="AddBlog()" class="btn-info pull-left">Kaydet</button>
+    @*<button type="button" ng-click="DeleteBlog()" class="btn-danger pull-right" value="">Sil</button>*@
+   
+</div>
+

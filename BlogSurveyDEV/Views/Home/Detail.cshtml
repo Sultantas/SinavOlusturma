@@ -1,0 +1,192 @@
+﻿@model BlogSurveyDEV.Controllers.BlogViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+@section styles{
+    <style>
+    .btn {
+        display: block !important;
+        width:100% !important;
+        text-align:left !important;
+        padding-left: 10px;
+        margin:5px auto;
+    }
+
+    .que-true .btn-warning{background-color:#47d15f !important;}
+        .que-false .btn-warning {
+            background-color: #ff0000 !important;
+        }
+
+</style>
+    }
+
+@section scripts{
+
+    <script>
+            var myModule = angular.module('App', [/* No Dependency Injection */]);
+            //Modulu olusturduk. Modul herhangi bir DI'ye ihtiyaç duymuyor
+
+        myModule.controller('BlogDetailController', function ($scope, $http, $sce) {
+
+            $scope.model = {};
+            $scope.isExamFinished = false;
+
+            $http.get('/repo/GetBlogExamModel/?id=' + '@Model.blog.Id').then(function (resp) {
+                $scope.model = resp.data.data;
+            });
+
+            $scope.defineOption = function (queId, opt) {
+                if ($scope.model.Question1.QueId === queId) {
+                    $scope.model.Question1.UserAnswer = opt;
+                }
+                else if ($scope.model.Question2.QueId === queId) {
+                    $scope.model.Question2.UserAnswer = opt;
+                }
+                else if ($scope.model.Question3.QueId === queId) {
+                    $scope.model.Question3.UserAnswer = opt;
+                }
+                else if ($scope.model.Question4.QueId === queId) {
+                    $scope.model.Question4.UserAnswer = opt;
+                }
+                
+            };
+
+            $scope.finishExam = function () {
+                $http.post('/repo/checkoption', $scope.model).then(function (resp) {
+                    $scope.isExamFinished = true;
+                    $scope.model = resp.data.data;
+                }, function () {
+                    alert('Beklenmedik bir hata oluştu :/');
+                })
+            };
+
+
+        });
+
+
+        </script>
+}
+<h1>@Model.blog.Title</h1>
+<div class="container" ng-controller="BlogDetailController">
+    <div class="col-md-12">
+        <section class="panel">
+            <form class="form-horizontal">
+                <iframe src="@Model.blog.Content" style="width:100%;height:400px;"></iframe>
+
+
+
+                @*, 'btn-success' : model.Question1.Result === 'true', 'btn-danger' : model.Question1.Result === 'false'*@
+         
+                <div class="row">
+                    <div class="col-sm-6" ng-class="{'que-true' : model.Question1.Result === 'true', 'que-false' : model.Question1.Result === 'false'}">
+                        <h4 class="">1.Soru:  @Model.Question1.Text  </h4>
+                        <button type="button" class="btn col-md-6 text-left" ng-click="defineOption(@Model.Question1.Id, 1)" ng-class="{'btn-warning' : model.Question1.UserAnswer === 1, 'btn-info' : model.Question1.UserAnswer !== 1}">A:@Model.Question1.Option1</button><br /> 
+                        
+                        <button type="button" class="btn btn-info col-md-6 text-left" ng-click="defineOption(@Model.Question1.Id, 2)" ng-class="{'btn-warning' : model.Question1.UserAnswer === 2, 'btn-info' : model.Question1.UserAnswer !== 2}">B:@Model.Question1.Option2</button> <br />
+
+                        <button type="button" class="btn btn-info col-md-6 text-left" ng-click="defineOption(@Model.Question1.Id, 3)" ng-class="{'btn-warning' : model.Question1.UserAnswer === 3, 'btn-info' : model.Question1.UserAnswer !== 3}">C:@Model.Question1.Option3</button>  <br />
+
+                        <button type="button" class="btn btn-info col-md-6 text-left" ng-click="defineOption(@Model.Question1.Id, 4)" ng-class="{'btn-warning' : model.Question1.UserAnswer === 4, 'btn-info' : model.Question1.UserAnswer !== 4}">D:@Model.Question1.Option4</button>               
+                    </div>
+
+
+                    <div class="col-sm-6"  ng-class="{'que-true' : model.Question2.Result === 'true', 'que-false' : model.Question2.Result === 'false'}">
+                        <h4>2.Soru:  @Model.Question2.Text  </h4>
+
+
+                        <button type="button" class="btn btn-info col-md-6 text-left" ng-click="defineOption(@Model.Question2.Id, 1)" ng-class="{'btn-warning' : model.Question2.UserAnswer === 1, 'btn-info' : model.Question2.UserAnswer !== 1}">A:@Model.Question2.Option1</button><br />
+
+                        <button type="button" class="btn btn-info col-md-6 text-left" ng-click="defineOption(@Model.Question2.Id, 2)" ng-class="{'btn-warning' : model.Question2.UserAnswer === 2, 'btn-info' : model.Question2.UserAnswer !== 2}">B:@Model.Question2.Option2</button><br />
+
+                        <button type="button" class="btn btn-info col-md-6 text-left" ng-click="defineOption(@Model.Question2.Id, 3)" ng-class="{'btn-warning' : model.Question2.UserAnswer === 3, 'btn-info' : model.Question2.UserAnswer !== 3}">C:@Model.Question2.Option3</button><br />
+
+                        <button type="button" class="btn btn-info col-md-6 text-left" ng-click="defineOption(@Model.Question2.Id, 4)" ng-class="{'btn-warning' : model.Question2.UserAnswer === 4, 'btn-info' : model.Question2.UserAnswer !== 4}">D:@Model.Question2.Option4</button><br />
+
+                    </div>
+                </div>
+           
+                <div class="row">
+                    <div class="col-sm-6" ng-class="{'que-true' : model.Question3.Result === 'true', 'que-false' : model.Question3.Result === 'false'}">
+                        <h4> 3.Soru:  @Model.Question3.Text </h4>
+
+                        <button type="button" class="btn btn-info col-md-6 text-left" ng-click="defineOption(@Model.Question3.Id, 1)" ng-class="{'btn-warning' : model.Question3.UserAnswer === 1, 'btn-info' : model.Question3.UserAnswer !== 1}">A:@Model.Question3.Option1</button>
+
+                        <button type="button" class="btn btn-info col-md-6 text-left" ng-click="defineOption(@Model.Question3.Id, 2)" ng-class="{'btn-warning' : model.Question3.UserAnswer === 2, 'btn-info' : model.Question3.UserAnswer !== 2}">B:@Model.Question3.Option2</button>
+
+                        <button type="button" class="btn btn-info col-md-6 text-left" ng-click="defineOption(@Model.Question3.Id, 3)" ng-class="{'btn-warning' : model.Question3.UserAnswer === 3, 'btn-info' : model.Question3.UserAnswer !== 3}">C:@Model.Question3.Option3</button>
+
+                        <button type="button" class="btn btn-info col-md-6 text-left" ng-click="defineOption(@Model.Question3.Id, 4)" ng-class="{'btn-warning' : model.Question3.UserAnswer === 4, 'btn-info' : model.Question3.UserAnswer !== 4}">D:@Model.Question3.Option4</button>
+                    </div>
+
+
+                    <div class="col-sm-6"  ng-class="{'que-true' : model.Question4.Result === 'true', 'que-false' : model.Question4.Result === 'false'}">
+                        <h4>   4.Soru:  @Model.Question4.Text </h4>
+
+                        <button type="button" class="btn btn-info col-md-6 text-left" ng-click="defineOption(@Model.Question4.Id, 1)" ng-class="{'btn-warning' : model.Question4.UserAnswer === 1, 'btn-info' : model.Question4.UserAnswer !== 1}">A:@Model.Question4.Option1</button>
+
+                        <button type="button" class="btn btn-info col-md-6 text-left" ng-click="defineOption(@Model.Question4.Id, 2)" ng-class="{'btn-warning' : model.Question4.UserAnswer === 2, 'btn-info' : model.Question4.UserAnswer !== 2}">B:@Model.Question4.Option2</button>
+
+
+                        <button type="button" class="btn btn-info col-md-6 text-left" ng-click="defineOption(@Model.Question4.Id, 3)" ng-class="{'btn-warning' : model.Question4.UserAnswer === 3, 'btn-info' : model.Question4.UserAnswer !== 3}">C:@Model.Question4.Option3</button>
+
+                        <button type="button" class="btn btn-info col-md-6 text-left" ng-click="defineOption(@Model.Question4.Id, 4)" ng-class="{'btn-warning' : model.Question4.UserAnswer === 4, 'btn-info' : model.Question4.UserAnswer !== 4}">D:@Model.Question4.Option4</button>
+
+                    </div>
+                </div>
+
+ 
+       
+                <br /><br />
+
+               <div class="row">
+                   <div class="col-xs-12 text-center">
+                       <button ng-if="!isExamFinished" type="button" class="btn btn-lg btn-primary" ng-click="finishExam()" style="width: 250px !important;
+    text-align: center !important;">Sınavı Tamamla</button>
+
+                       <button ng-if="isExamFinished" type="button" class="btn btn-lg btn-primary" style="width: 250px !important;
+    text-align: center !important;" disabled>
+                           Sınavı Tamamlandı.
+                       </button>
+                   </div>
+               </div>
+
+
+
+        @*<br /><br />
+        @Model.Question1.Option2<br /><br />
+        @Model.Question1.Option3<br /><br />
+        @Model.Question1.Option4<br /><br />
+        Answer - @Model.Question1.Answer<br /><br />
+    </p>
+
+    <p>
+        @Model.Question2.Text<br /><br />
+        @Model.Question2.Option1<br /><br />
+        @Model.Question2.Option2<br /><br />
+        @Model.Question2.Option3<br /><br />
+        @Model.Question2.Option4<br /><br />
+        Answer - @Model.Question2.Answer<br /><br />
+    </p>
+
+    <p>
+        @Model.Question3.Text<br /><br />
+        @Model.Question3.Option1<br /><br />
+        @Model.Question3.Option2<br /><br />
+        @Model.Question3.Option3<br /><br />
+        @Model.Question3.Option4<br /><br />
+        Answer - @Model.Question3.Answer<br /><br />
+    </p>
+
+    <p>
+        @Model.Question4.Text<br /><br />
+        @Model.Question4.Option1<br /><br />
+        @Model.Question4.Option2<br /><br />
+        @Model.Question4.Option3<br /><br />
+        @Model.Question4.Option4<br /><br />
+        Answer - @Model.Question4.Answer<br /><br />
+    </p>*@
+            </form>
+        </section>
+    </div>
+</div>

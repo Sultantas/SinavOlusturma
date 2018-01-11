@@ -1,0 +1,54 @@
+﻿@model List<BlogSurveyDEV.Models.Blog>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+@section scripts{
+
+    <script>
+        var myModule = angular.module('App', [/* No Dependency Injection */]);
+        //Modulu olusturduk. Modul herhangi bir DI'ye ihtiyaç duymuyor
+        
+        myModule.controller('BlogController', function ($scope, $http, $sce) {
+            
+            
+            // BLOG KAYDINI SİL
+            $scope.DeleteBlog = function (_id) {
+                $http.get("/repo/deleteblog/?_blogId=" + _id).then(function (resp) {
+                    alert(resp.data.message);
+                    if (resp.data.result === true)
+                        window.location.href = "/";
+                }, function () {
+                    alert(resp.data.message);
+                })
+            };
+
+        });
+
+
+    </script>
+}
+ <br />
+<div class="container col-md-12" ng-controller="BlogController" >
+    <table class="col-md-10">
+        <tr>
+            <th>Başlıklar</th>
+
+        </tr>
+         
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td><a href="/home/detail/?id=@item.Id">@item.Title</a></td>
+                <td><button class="alert-danger col-md-9 pull-right" ng-click="DeleteBlog(@item.Id)">Sil
+                </button> </td>
+            </tr>
+        }
+
+
+
+    </table>
+</div>
